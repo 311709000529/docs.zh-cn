@@ -320,7 +320,7 @@ ORDER BY (column_name1, column_name2, ...)
 
 #### 修改 table 的属性
 
-目前支持修改 `bloom filter 列`，`colocate_with 属性`， `dynamic_partition 属性`，`replication_num` 和 `default.replication_num` 属性。
+目前支持修改 `bloom filter 列`，`colocate_with 属性`， `dynamic_partition 属性`，`enable_persistent_index 属性`，`replication_num` 和 `default.replication_num` 属性。
 
 语法：
 
