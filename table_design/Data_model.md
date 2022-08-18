@@ -355,6 +355,7 @@ PROPERTIES("replication_num" = "3",
    > - 主键必须为定长的数据类型（CHAR 除外），不支持为可变长的数据类型（例如 VARCHAR）。
    > - 如果磁盘为固态硬盘 SSD，则建议设置为 `true`。
    > - 自 2.3.0 版本起，StarRocks 支持配置该参数。
+   > - `enable_persistent_index`参数需要配置在 `建表时的property`内，已经建好可以参考 [ALTER TABLE](https://docs.starrocks.com/zh-cn/latest/sql-reference/sql-statements/data-definition/ALTER%20TABLE#schemachange) 章节来添加该属性
 
 - 自2.3.0 版本起，指标列新增支持 BITMAP、HLL 数据类型。
 
